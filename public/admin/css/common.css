@@ -1,0 +1,17 @@
+body{
+    background: #031a31;
+}
+.panel{
+    margin-top:200px;
+    text-align: center;
+}
+
+.panel-heading{
+    font-size: 18px;
+}
+
+.form-group button:nth-child(2){
+    background: #369;
+    color: #fff;
+}
+
