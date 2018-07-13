@@ -1,0 +1,108 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.clearfix::after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  clear: both;
+  overflow: hidden;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+a:hover,
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  display: block;
+  width: 100%;
+}
+.view.active {
+  padding-left: 0px;
+}
+.view {
+  width: 100%;
+  height: 100%;
+  padding-left: 180px;
+  transition: all 1s;
+}
+.view .lt_aside.active {
+  left: -180px;
+}
+.view .lt_top {
+  width: 100%;
+  height: 50px;
+  background: #3c8dbc;
+  padding: 0 20px;
+}
+.view .lt_top a:nth-child(1) {
+  float: left;
+}
+.view .lt_top a:nth-child(2) {
+  float: right;
+}
+.view .lt_top a span {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 50px;
+}
+.view .lt_content {
+  padding: 20px;
+}
+.view .lt_content .zhuxingtu,
+.view .lt_content .bingtu {
+  width: 45%;
+  height: 400px;
+}
+.view .lt_aside {
+  width: 180px;
+  height: 100%;
+  background: #222d32;
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: all 1s;
+}
+.view .lt_aside .sty_data {
+  background: #367fa9;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+.view .lt_aside .lt_user img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 40px auto 10px;
+}
+.view .lt_aside .lt_user p {
+  text-align: center;
+  color: #ffffff;
+}
+.view .lt_aside .lt_nav ul {
+  margin-top: 50px;
+}
+.view .lt_aside .lt_nav ul li a {
+  color: #cccccc;
+  height: 35px;
+  line-height: 35px;
+}
+.view .lt_aside .lt_nav ul .jibie {
+  padding-left: 20px;
+}
+.user_table thead th {
+  text-align: center;
+}
